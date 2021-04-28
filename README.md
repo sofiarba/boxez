@@ -15,12 +15,14 @@ This project was bootstrapped with [Create React Native App](https://github.com/
 - XCode Mac for IOS simulator (on the App Store)
   
 ## 📝 Mac Commands to Install 
-- Inside the root directory run the the following commands
-  - npm install -g expo-cli
-  - sudo gem install cocoapods
-  - npm i
-- Inside the /components directory run the following command to install all dependencies
-  - npm i
+- Inside the root directory
+  - Install dependencies: `npm install`
+  - Install Expo CLI: `npm install -g expo-cli`
+ 
+- Inside the `ios` directory 
+  - Install Pods: `sudo gem install cocoapods`
+  - Install Pods: `npx pod-install` or `pod install`
+
 
 ## 🧠 Steps to Run boxez
 1. Inside the root directory run:
@@ -40,3 +42,8 @@ This project was bootstrapped with [Create React Native App](https://github.com/
 
    - Press d │ show developer tools
    - shift+d │ toggle auto opening developer tools on startup 
+
+Note:
+To run app on iPhone, you must download the [Expo Go](https://expo.io/) app. Ensure that laptop and phone are connected to the same
+wifi and then scan the given barcode with the camera app. App should open automatically.
+ 
